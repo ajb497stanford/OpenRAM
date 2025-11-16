@@ -53,6 +53,17 @@ class options(optparse.Values):
     num_spare_rows = 0
     num_spare_cols = 0
 
+    ####################################
+    # EXPERIMENTAL OPTIONS
+    split_wordline = False
+    split_bitline = False
+    negative_bitline = False
+    negative_wordline = False
+    double_wordline = False
+    adjustable_cell_vdd = False
+    metal_coupling_sharing = False
+    ####################################
+
     ###################
     # ROM configuration options
     ###################
